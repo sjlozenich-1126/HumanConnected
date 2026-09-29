@@ -1,0 +1,170 @@
+import { LibraryDetail } from '../types';
+
+export const LIBRARIES_DATA: LibraryDetail[] = [
+  {
+    id: 'L1',
+    number: 'I',
+    name: 'The Human Continuum',
+    subtitle: 'The Library of Conditions',
+    scienceType: 'Natural Science',
+    institutions: ['The Collective (Primary Custodian)'],
+    headquartersName: 'Human Continuum',
+    lesson: 'Life is the ground. Every other library stands upon it.',
+    shortDescription:
+      'The biological substrate and living baseline. Where life begins and every science finds its empirical origin in bodies, land, water, energy, and time.',
+    disciplines: [
+      { name: 'Biology', teaches: 'Limits' },
+      { name: 'Ecology', teaches: 'Interdependence' },
+      { name: 'Geology', teaches: 'Patience' },
+      { name: 'Physics', teaches: 'Consequence' },
+    ],
+    fullText: [
+      'The first library is not made of stone or paper. It is made of bodies, land, water, energy, and time.',
+      'Before any institution was built, before any archive was kept, before any ledger was written, there was only life learning how to live. Bodies learning hunger and shelter. Hands learning tools. Eyes learning patterns. Communities learning each other.',
+      'Here, the sciences of life speak plainly. This library holds no ideology, no policy, no system. It holds only what is real.',
+      'Every person begins here, learning the three centers of human progress: Presence (the minute and hour), Rhythm (the month to month), and Continuity (the year to year).',
+    ],
+    principles: [
+      'Empirical Condition Precedes Symbolic Order',
+      'Biological Reality Cannot Be Negotiated Away',
+      'Ecosystem Interdependence Governs Survival',
+      'The Baseline of All Collective Action Is Human Viability',
+    ],
+  },
+  {
+    id: 'L2',
+    number: 'II',
+    name: 'The Global Confidence Reserve',
+    subtitle: 'The Library of Meaning',
+    scienceType: 'Social Science',
+    institutions: ['Fiducia Centrale'],
+    headquartersName: 'Global Confidence Reserve',
+    lesson: 'Meaning must remain answerable to life.',
+    shortDescription:
+      'The sanctuary of shared narrative, identity, and trust. Not a vault of coin or speculative tokens, but a repository of human confidence and legitimate purpose.',
+    disciplines: [
+      { name: 'Anthropology', teaches: 'Story' },
+      { name: 'Psychology', teaches: 'Intention' },
+      { name: 'Linguistics', teaches: 'Symbol' },
+      { name: 'Philosophy', teaches: 'Purpose' },
+    ],
+    keyQuestions: [
+      'Who are we?',
+      'What do we protect?',
+      'What future do we seek?',
+    ],
+    fullText: [
+      'From the ground of life rises the second library: the place where humans turn conditions into meaning.',
+      'This library does not govern. It interprets. It examines the states of mind and states of being that permit civilization to bind together in mutual faith.',
+      'Fiducia Centrale is the keeper of this library — not a vault of money, but a vault of confidence, identity, and shared narrative.',
+      'At the heart of every enduring relationship — whether personal, financial, or global — lies the unshakable bond between trust and truth. Trust is the foundation, truth is the compass, and every decision radiates outward with integrity and purpose.',
+    ],
+    principles: [
+      'Trust Is Founded in Truth, Not Coercion',
+      'Value Is Grown With Care and Calibrated By Time',
+      'Social Legitimacy Derives from Answerability to Reality',
+      'Confidence Is a Cyclical State of Being and Foresight',
+    ],
+  },
+  {
+    id: 'L3',
+    number: 'III',
+    name: 'The World Systems Council',
+    subtitle: 'The Library of Boundaries',
+    scienceType: 'Applied Science',
+    institutions: ['United Nations (UN)', 'World Health Organization (WHO - Governance)', 'Central Trust Securities (CTS - Governance)'],
+    headquartersName: 'World Systems Council',
+    lesson: 'Power becomes accountable when it can identify its source, its limit, and its review.',
+    shortDescription:
+      'Law, governance, coordination, and authority. The boundary-setting forum where disputes find resolution and collective resources are stewarded across borders.',
+    disciplines: [
+      { name: 'Law', teaches: 'Boundaries' },
+      { name: 'Economics', teaches: 'Exchange' },
+      { name: 'Political Science', teaches: 'Representation' },
+      { name: 'Public Health', teaches: 'Collective Protection' },
+    ],
+    fullText: [
+      'From meaning rises the need for coordination. Promises must be kept. Disputes must be resolved. Resources must be shared. Decisions must be made across distance and time.',
+      'Here, the sciences of application speak of law, economics, representation, and public health.',
+      'This library is where meaning becomes rule, and rule becomes responsibility. A good headquarters here does not imply sovereign dominion — only genuine global coordination.',
+      'The World Systems Council ensures that power does not outrun its legitimate baseline, maintaining the treaties, compacts, and protocols that safeguard human equilibrium.',
+    ],
+    principles: [
+      'Coordination Without Hegemonic Overreach',
+      'Clear Source, Bound Limit, Continuous Review',
+      'Global Permissioning Governed By Shared Compacts',
+      'Protection of the Vulnerable as the Primary Axiom',
+    ],
+  },
+  {
+    id: 'L4',
+    number: 'IV',
+    name: 'The Continuity & Provenance Authority',
+    subtitle: 'The Library of Systems',
+    scienceType: 'Formal Science',
+    institutions: ['Swiss International Archives', 'Central Trust Securities (CTS - Methodology)'],
+    headquartersName: 'Continuity & Provenance Authority',
+    lesson: 'A system becomes trustworthy not when it claims perfection, but when it can show its work.',
+    shortDescription:
+      'The formal methodological backbone of metadata, systems, zero-trust cryptographic protocols, verification, and unalterable lineage of authority.',
+    disciplines: [
+      { name: 'Information Science', teaches: 'Metadata' },
+      { name: 'Mathematics', teaches: 'Classification' },
+      { name: 'Computer Science', teaches: 'Architecture' },
+      { name: 'Archival Science', teaches: 'Provenance' },
+    ],
+    fullText: [
+      'From boundaries rises the need for method. A law cannot enforce itself. A charter cannot operate itself. A promise cannot preserve itself.',
+      'Here, the sciences of structure speak: information science, mathematics, computer science, and archival science.',
+      'This library is where permission becomes capability. Central Trust Securities brings zero-trust architecture, using key nodes to strengthen the network and analyze threat architectures, while the Swiss International Archives preserves the lineage of authority.',
+      'Together they guarantee that every transaction, decree, and scientific finding holds verified provenance across generational horizons.',
+    ],
+    principles: [
+      'Zero-Trust Node Architecture With Verified Provenance',
+      'Unalterable Archival Lineage and Invariant Auditing',
+      'Formal Rigor Over Subjective Impression',
+      'Transparency: Showing Work Rather Than Claiming Infallibility',
+    ],
+  },
+  {
+    id: 'L5',
+    number: 'V',
+    name: 'The Global Operations Network',
+    subtitle: 'The Library of Deeds',
+    scienceType: 'Practical Implementation',
+    institutions: ['World Health Organization (WHO - Operations)', 'The Collective (Execution)', 'CTS (Operational Consumer)'],
+    headquartersName: 'Global Operations Network',
+    lesson: 'Every deed becomes part of the world that judges the next deed.',
+    shortDescription:
+      'Operations, labor, engineering, and service delivery. The field response where theoretical systems and charters materialize into tangible care and construction.',
+    disciplines: [
+      { name: 'Engineering', teaches: 'Construction' },
+      { name: 'Medicine', teaches: 'Care' },
+      { name: 'Logistics', teaches: 'Movement' },
+      { name: 'Operations Science', teaches: 'Execution' },
+    ],
+    fullText: [
+      'From systems rises the need for action. A bridge must be built. A patient must be cared for. A record must be filed. A service must be delivered. A world must be maintained.',
+      'Here, the sciences of practice speak: engineering, medicine, logistics, and operations science.',
+      'This library is where plans become outcomes, and where outcomes become new conditions on the ground. The WHO and field partners operate here in real time across the globe.',
+      'Through deeds, the loop completes: the outputs of operations generate the empirical conditions that feed back into Library I.',
+    ],
+    principles: [
+      'Direct Action Grounded in Empirical Need',
+      'Humane Logistics and Rapid Crisis Response',
+      'Accountability to the Communities Served',
+      'Outcomes Return as Evidence for Collective Renewal',
+    ],
+  },
+];
+
+export const RETURNING_RIVER_STEPS = [
+  { step: 1, title: 'Life gives conditions', library: 'Library I: Conditions', desc: 'Biological, geological, and empirical constraints define what is possible.' },
+  { step: 2, title: 'People give meaning', library: 'Library II: Meaning', desc: 'Humans articulate values, identity, narrative, and shared purpose.' },
+  { step: 3, title: 'Records preserve memory', library: 'Library IV: Systems', desc: 'Lineage of authority and archival provenance preserve commitments.' },
+  { step: 4, title: 'Governance bounds power', library: 'Library III: Boundaries', desc: 'Shared laws, compacts, and councils establish operational limits.' },
+  { step: 5, title: 'Systems make action possible', library: 'Library IV: Systems', desc: 'Formal protocols and zero-trust architectures enable trustworthy capability.' },
+  { step: 6, title: 'Execution creates outcomes', library: 'Library V: Deeds', desc: 'Real-world labor, engineering, and medical care build infrastructure.' },
+  { step: 7, title: 'Outcomes return as evidence', library: 'Library V → I', desc: 'Empirical results are measured against physical realities.' },
+  { step: 8, title: 'Evidence becomes new conditions', library: 'Library I: Conditions', desc: 'The cycle renews, enriching the ground upon which civilization stands.' },
+];

@@ -1,0 +1,8 @@
+{
+  "name": "The Collective — Human Connected",
+  "description": "Internal civic community and headquarters platform connecting Fiducia Centrale, Central Trust Securities, the UN, WHO, and Swiss International Archives across the Five Libraries and Three Centers of Human Progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
